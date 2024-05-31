@@ -14,4 +14,12 @@ class CRUD():
         opcion2 = int(input(f'Seguro de eliminar: {tarea.get(opcion)}'
               f'\n 1.si'
               f'\n 2.no'))
+        
+    def crear_tarea(self, tarea):
+        dia= input("Ingrese la fecha de la tarea: ")
+        nombre= input("Ingrese el nombre de la tarea a crear: ")
+        tarea ={ "tarea 1":{"dia": dia,
+                "tarea": nombre}}
+        print("Su tarea fue creada con exito")
+        
             

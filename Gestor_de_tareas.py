@@ -19,6 +19,6 @@ while opcion !=5:
       elif(opcion==4):
             print()
       elif(opcion==5):
-            print('Gracias por utilizar el gestor de tareas,vuelva prontos')
+            print('Gracias por utilizar el gestor de tareas,vuelva pronto')
       else:
             print("la opcion seleccionada no es correcta")
